@@ -7,12 +7,16 @@
 <script type="text/javascript">
     function changeImage() {
         //类型提升
-        var test = 16 + "dasfs";
+        document.write
+("你好世界!");
+        var test = 16 + "das" +
+            "fs";
         alert(test)
+        //在渲染结束以后调用write会导致整个dom被覆盖，禁止调用
     }
 </script>
 <body>
-    <img id="myImage" onclick="changeImage()" src="../images/1533813675413.jpg" width="100" height="180">
+    <img id="myImage" onclick="changeImage()" src="../../images/1533813675413.jpg" width="100" height="180">
     <p>点击灯泡就可以打开或关闭这盏灯</p>
 </body>
 </html>

@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e900959-2133-4afa-8218-92b900cab2da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/firstDay/style/TestBasicStyle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first/TestChangStyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstDay/TestChangStyle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first/TestChangeImage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstDay/TestChangeImage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first/TestChangeText.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstDay/TestChangeText.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first/TestCheckInput.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstDay/TestCheckInput.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first/TestImport.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstDay/TestImport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first/testOnClick.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstDay/testOnClick.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first/testoutput.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstDay/testoutput.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firstDay/comment/TestChangeText.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firstDay/style/TestBasicStyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstDay/style/TestBasicStyle.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,7 +36,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="html" value="8" />
+          <entry key="html" value="9" />
           <entry key="jpg" value="2" />
           <entry key="js" value="1" />
           <entry key="md" value="1" />
@@ -52,7 +45,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="8" />
+          <entry key="HTML" value="9" />
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -62,13 +55,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="12" />
-          <entry key="html" value="410" />
+          <entry key="html" value="467" />
           <entry key="js" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="410" />
+          <entry key="HTML" value="467" />
           <entry key="JavaScript" value="15" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
@@ -150,18 +143,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/firstDay/style/TestBasicStyle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/1533813675413.jpg">
-          <provider selected="true" editor-type-id="images" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/firstDay/comment/TestChangeText.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -191,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/js/Import.js" />
         <option value="$PROJECT_DIR$/src/first/TestImport.html" />
         <option value="$PROJECT_DIR$/src/firstDay/style/TestBasicStyle.html" />
+        <option value="$PROJECT_DIR$/src/firstDay/comment/TestChangeText.html" />
       </list>
     </option>
   </component>
@@ -232,13 +230,6 @@
               <item name="first.project" type="b2602c69:ProjectViewProjectNode" />
               <item name="firstProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="firstDay" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first.project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -257,6 +248,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/firstDay/comment" />
       <recent name="$PROJECT_DIR$/src/firstDay/style" />
       <recent name="$PROJECT_DIR$/src/first" />
     </key>
@@ -289,12 +281,12 @@
       <updated>1535508701869</updated>
       <workItem from="1535508704146" duration="142000" />
       <workItem from="1535541079902" duration="378000" />
-      <workItem from="1535541514159" duration="1864000" />
+      <workItem from="1535541514159" duration="2135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2384000" />
+    <option name="totallyTimeSpent" value="2655000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,13 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/firstDay/TestChangeImage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/firstDay/testoutput.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -414,10 +399,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/firstDay/TestChangeImage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/firstDay/style/TestBasicStyle.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/firstDay/comment/TestChangeText.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
