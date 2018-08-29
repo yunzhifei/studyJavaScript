@@ -12,10 +12,34 @@
         alert("现在是" + typeof test + test);
         var test = new Object();
         alert("最后是" + typeof test + test);
+        //数组的4中创建方式
+        var arr1 = new Array('a', 'b', 'c');    //这是一个预定义的数组，在创建时初始化
+        var arr2 = ['a', 'b', 'c'];       //同样是在创建时初始化，但是这种创建更为简洁直观
+        var arr3 = new Array();
+        var arr4 = [];
+        //牛逼的添加属性 java中是不允许这样做的额
+        var people = new Object();
+        people.name = 'Tom';
+        people.age = 21;
+        people.eat = function () {
+        }
+
+
     }
 </script>
 <body>
 <button onclick="changeImage()" value="测试JavaScript动态类型">测试JavaScript动态类型</button>
+<script>
+    //这个为什么呢
+
+    var x, y;
+    if (null == x) {
+       document.write(x +"<br>");
+    }
+    if(y == undefined){
+        document.write(y);
+    }
+</script>
 
 </body>
 </html>
