@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script type="text/javascript">
+    function changeImage() {
+        var test = 1;
+        alert("开始是" + typeof test + test);
+        var test = "";
+        alert("现在是" + typeof test + test);
+        var test = new Object();
+        alert("最后是" + typeof test + test);
+    }
+</script>
+<body>
+<button onclick="changeImage()" value="测试JavaScript动态类型">测试JavaScript动态类型</button>
+
+</body>
+</html>
