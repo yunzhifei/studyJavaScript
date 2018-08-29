@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-    <script type="text/javascript">
-        function changeText() {
-            let elementById = document.getElementById("testId");
-            elementById.innerHTML = "改变了吧";
-        }
-    </script>
+<script type="text/javascript">
+    function changeImage() {
+        let elementById = document.getElementById("myImage");
+        elementById.src = "../images/1533813704682.jpg";
+    }
+</script>
 <body>
-    <button id="testId" onclick="changeText()">测试</button>
+    <img id="myImage" onclick="changeImage()" src="../images/1533813675413.jpg" width="100" height="180">
+    <p>点击灯泡就可以打开或关闭这盏灯</p>
 </body>
 </html>

@@ -5,9 +5,12 @@
     <title>Title</title>
 </head>
     <script type="text/javascript">
-
+        function changeText() {
+            let elementById = document.getElementById("testId");
+            elementById.innerHTML = "改变了吧";
+        }
     </script>
 <body>
-    <button onclick="alert('测试onclick')">测试</button>
+    <button id="testId" onclick="changeText()">测试</button>
 </body>
 </html>
