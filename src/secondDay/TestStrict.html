@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>scope</title>
+</head>
+<script>
+    "use strict";
+    function load(){
+            alert("load");
+            alert(y)
+    }
+    "use strict";
+    var obj = {};
+    Object.defineProperty(obj, "x", {value:0, writable:false});
+
+    obj.x = 3.14;            // 报错
+
+    "use strict";
+    var obj = {get x() {return 0} };
+
+    obj.x = 3.14;
+
+</script>
+<body onload="load()">
+
+在函数内部声明是局部作用域 (只在函数内使用严格模式):<br/>
+严格模式通过在脚本或函数的头部添加 "use strict"; 表达式来声明。<br/>
+。<strong> <span >不允许删除变量或对象</span></strong>
+不允许删除函数<br/>
+不允许变量重名:
+不允许使用八进制:
+不允许使用转义字符:
+不允许对只读属性赋值:
+不允许对一个使用getter方法读取的属性进行赋值
+变量名不能使用 "eval" 字符串:
+禁止this关键字指向全局对象。
+
+，switch 语句会使用恒等计算符(===)进行比较:
+</body >
+</html>
