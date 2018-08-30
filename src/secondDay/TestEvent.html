@@ -14,6 +14,12 @@
     function mOut(obj){
         obj.innerHTML="Mouse Over Me"
     }
+    function mDown(obj){
+        alert("down")
+    }
+    function mUp(obj){
+        alert("up")
+    }
 </script>
 <body onload="load()">
 
@@ -29,6 +35,6 @@ html 的全局对象在 HTML 中, 全局变量是 window 对象: 所有数据变
 
 let 允许你声明一个作用域被限制在块级中的变量、语句或者表达式。与var关键字不同的是，它声明的变量只能是全局或者整个函数块的。<br/>
 === 为绝对相等，即数据类型与值都必须相等。
-<div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:#D94A38;width:120px;height:20px;padding:40px;">Mouse Over Me</div>
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" onmousedown="mDown(this)" onmouseup="mUp(this)" style="background-color:#D94A38;width:120px;height:20px;padding:40px;">Mouse Over Me</div>
 </body >
 </html>
