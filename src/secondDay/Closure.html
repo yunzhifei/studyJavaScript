@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>scope</title>
+</head>
+<script>
+    var add = (function () {
+        var counter = 0;
+        alert("test")
+        return function () {
+            return counter += 1;
+        }
+    })();
+    alert(typeof add)
+    function myFunction() {
+        document.getElementById("demo").innerHTML = add();
+    }
+</script>
+<body onload="load()">
+add变量可以作为一个函数使用。非常棒的部分是它可以访问函数上一层作用域的计数器。
+这个叫作 JavaScript 闭包。它使得函数拥有私有变量变成可能。
+
+<p id="demo"> value</p>
+<!-- 为什么不可以直接调用add ->
+<button onclick="myFunction()" value="计数器">计数器</button>
+</body>
+</html>
